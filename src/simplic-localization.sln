@@ -7,8 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Localization", "Sim
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ENV", "ENV", "{9512AB54-F358-4863-912E-E772013950D5}"
 	ProjectSection(SolutionItems) = preProject
-		azure-pipelines.yml = azure-pipelines.yml
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		..\documentation_config.json = ..\documentation_config.json
+		..\release-notes.xml = ..\release-notes.xml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Localization.Service", "Simplic.Localization.Service\Simplic.Localization.Service.csproj", "{E2EE3864-26FF-4593-B6E5-10B257497694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Localization.UI", "Simplic.Localization.UI\Simplic.Localization.UI.csproj", "{F4A35B51-F488-41C0-8383-6E2925D7E704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +26,14 @@ Global
 		{2608E261-3F88-4080-9AB9-95444C0D2971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2608E261-3F88-4080-9AB9-95444C0D2971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2608E261-3F88-4080-9AB9-95444C0D2971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EE3864-26FF-4593-B6E5-10B257497694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EE3864-26FF-4593-B6E5-10B257497694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EE3864-26FF-4593-B6E5-10B257497694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EE3864-26FF-4593-B6E5-10B257497694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A35B51-F488-41C0-8383-6E2925D7E704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A35B51-F488-41C0-8383-6E2925D7E704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A35B51-F488-41C0-8383-6E2925D7E704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A35B51-F488-41C0-8383-6E2925D7E704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
